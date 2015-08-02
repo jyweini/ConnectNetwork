@@ -3,7 +3,8 @@
     package="com.example.administrator.nettest" >
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,13 +13,18 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
-
         </activity>
         <activity
             android:name=".HttpURLConnectActivity"
             android:label="@string/title_activity_http_urlconnect" >
+
+        </activity>
+        <activity
+            android:name=".HttpClientActivity"
+            android:label="@string/title_activity_http_client" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
