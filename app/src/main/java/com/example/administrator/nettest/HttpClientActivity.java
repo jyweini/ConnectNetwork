@@ -35,7 +35,7 @@ public class HttpClientActivity extends ActionBarActivity {
                     @Override
                     public void run() {
                         HttpClient cliet=new DefaultHttpClient();
-                        HttpGet get=new HttpGet("http://120.27.46.196:8082/bianMeile/user/getAllUser.action?mobile=13053549598");
+                        HttpGet get=new HttpGet("http://192.168.199.104:8080/bianMeile/user/getAllUser.action?mobile=13053549598");
                         try {
                             HttpResponse response=cliet.execute(get);
                             HttpEntity entity=response.getEntity();

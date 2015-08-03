@@ -33,7 +33,7 @@ public class HttpURLConnectActivity extends ActionBarActivity {
                 Thread td=new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        String urlStr="http://120.27.46.196:8082/bianMeile/user/getAllUser.action";
+                        String urlStr="http://192.168.199.104:8080/bianMeile/user/getAllUser.action";
                         HttpURLConnection  conn;
                         URL rul= null;
                         try {

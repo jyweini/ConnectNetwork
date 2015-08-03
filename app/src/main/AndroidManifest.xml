@@ -17,11 +17,15 @@
         <activity
             android:name=".HttpURLConnectActivity"
             android:label="@string/title_activity_http_urlconnect" >
-
         </activity>
         <activity
             android:name=".HttpClientActivity"
             android:label="@string/title_activity_http_client" >
+
+        </activity>
+        <activity
+            android:name=".MyMessageActivity"
+            android:label="@string/title_activity_my_message" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
